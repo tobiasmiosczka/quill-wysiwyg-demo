@@ -1,0 +1,9 @@
+<h1>Editor</h1>
+<h2>Quill Editor</h2>
+<quill-editor [(ngModel)]="content"></quill-editor>
+<h2>Raw HTML</h2>
+<pre><code>{{ content }}</code></pre>
+<h2>Raw HTML TextArea</h2>
+<textarea [(ngModel)]="content"></textarea>
+<h2>HTML Preview</h2>
+<quill-view-html [content]="content"></quill-view-html>
