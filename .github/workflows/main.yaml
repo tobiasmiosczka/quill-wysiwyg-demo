@@ -20,4 +20,4 @@ jobs:
       - name: Deploy to gh pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist/'
+          path: './dist/quill-wysiwyg-demo/browser/'

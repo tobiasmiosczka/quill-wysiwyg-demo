@@ -1,11 +1,11 @@
 {
-  "name": "ngx-quill-example",
+  "name": "quill-wysiwyg-demo",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:deploy": "ng build --configuration production --base-href /ngx-quill-example/ && gh-pages -d ./dist/ngx-quill-example/browser",
+    "build:deploy": "ng build --configuration production --base-href /quill-wysiwyg-demo/ && gh-pages -d ./dist/quill-wysiwyg-demo/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
