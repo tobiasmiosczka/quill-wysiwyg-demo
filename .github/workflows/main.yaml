@@ -16,7 +16,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Build Angular App
-        run: npm run build
+        run: npm run build:deploy
       - name: Deploy to gh pages
         uses: actions/upload-pages-artifact@v4
         with:
