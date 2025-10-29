@@ -12,4 +12,5 @@ export class EditorComponent {
 
   content = '<p>test</p>'
 
+
 }
