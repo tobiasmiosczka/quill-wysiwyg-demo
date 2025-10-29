@@ -10,23 +10,14 @@ export const appConfig: ApplicationConfig = {
     customModules: [],
     modules: {
         toolbar: [
-            // Zeile 1: Überschriften, Listen, Code-Block
             [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
             [{ 'list': 'ordered'}, { 'list': 'bullet' }],
             ['blockquote', 'code-block'],
-
-            // Zeile 2: Fett, Kursiv, etc.
             ['bold', 'italic', 'underline', 'strike'],
             [{ 'color': [] }, { 'background': [] }],
             [{ 'font': [] }],
-
-            // Zeile 3: Ausrichtung
             [{ 'align': [] }],
-
-            // Zeile 4: Links, Bilder, Videos und IHR BENUTZERDEFINIERTER BUTTON
-            ['link', 'image', 'video', 'button'], // <-- HIER IST IHR BUTTON EINGEFÜGT
-
-            // Zeile 5: Clear
+            ['link', 'image', 'video', 'button'],
             ['clean']
         ]
     },
